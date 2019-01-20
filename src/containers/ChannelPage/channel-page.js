@@ -1,8 +1,8 @@
 import React,{Component} from 'react';
 
 import convertData from '../../utils/convert-data'
-
 import ChannelGroup from '../../components/channel-group';
+import './style.scss';
 
 
 class  ChannelPage extends Component{
@@ -22,7 +22,7 @@ class  ChannelPage extends Component{
    }
   render(){
     return (
-        <div>
+        <div className="app-wrapper">
          {this.state.channelGroups.map(group=><ChannelGroup key={group.date} group={group}/>)}
         </div>
     );
