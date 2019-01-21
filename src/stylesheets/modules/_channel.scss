@@ -1,15 +1,35 @@
 // Channel module.
-@media only screen and (min-width: 760px){
 .channel{
   grid-column: span 12;
-
   padding: 20px 0px;
   background: map-get($colors, white);
   display: grid;
-  grid-template-columns: repeat(12, 1fr);
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: auto auto ;
   box-sizing: border-box;
   border: 1px solid map-get($colors, gray);
   grid-template-areas:
-  "photo detail detail detail detail detail detail instructor instructor time time time"
+  "photo detail detail detail "
+  "instructor instructor time time"
 }
+
+// @media only screen and (min-width: 760px){
+//   .container {
+//     max-width: 90%;
+//     margin: 0 auto;
+//   }
+// }
+
+@media only screen and (min-width: 1280px){
+  .channel{
+    grid-column: span 12;
+    padding: 20px 0px;
+    background: map-get($colors, white);
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    box-sizing: border-box;
+    border: 1px solid map-get($colors, gray);
+    grid-template-areas:
+    "photo detail detail detail detail detail detail instructor instructor time time time"
+  }
 }

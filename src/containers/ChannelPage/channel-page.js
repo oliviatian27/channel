@@ -21,9 +21,10 @@ class  ChannelPage extends Component{
      })
    }
   render(){
+    let {channelList}=this.state
     return (
         <div className="container">
-         {this.state.channelList.map(list=><ChannelList key={list.date} list={list}/>)}
+         {channelList.map(list=><ChannelList key={list.date} list={list}/>)}
         </div>
     );
   }
