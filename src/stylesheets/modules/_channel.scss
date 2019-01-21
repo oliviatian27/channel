@@ -1,0 +1,15 @@
+// Channel module.
+@media only screen and (min-width: 760px){
+.channel{
+  grid-column: span 12;
+
+  padding: 20px 0px;
+  background: map-get($colors, white);
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  box-sizing: border-box;
+  border: 1px solid map-get($colors, gray);
+  grid-template-areas:
+  "photo detail detail detail detail detail detail instructor instructor time time time"
+}
+}

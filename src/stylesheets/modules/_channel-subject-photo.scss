@@ -1,0 +1,10 @@
+// ChannelSubjectPhoto module.
+.channel-subject-photo {
+  grid-area:photo;
+  & img{
+    display:block;
+    border-radius: 50%;
+    width: 50%;
+    margin:auto;
+    }
+}

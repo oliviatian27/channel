@@ -1,0 +1,10 @@
+// ChannelDate module
+.channel-date {
+  grid-column: span 12;
+  font-size: 1vw;
+  padding: 15px 0px;
+  & .date{
+    color: map-get($colors,ui-dark);
+    font-weight: 500;
+  }
+}

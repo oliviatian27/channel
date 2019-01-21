@@ -1,0 +1,27 @@
+// ChannelInstructor module
+.channel-instructor {
+  grid-area:instructor;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  & .instructor-photo{
+    grid-column: span 1;
+    & img{
+      display:block;
+      border-radius: 50%;
+      width: 50%;
+      margin:auto;
+    }
+  }
+  & .instructor-name{
+    grid-column: span 1;
+    font-weight: 400;
+    font-size: 0.8vw;
+    white-space: nowrap;
+    // text-overflow: ellipsis;
+    // overflow:visible;
+    // & p{
+    //   text-overflow: clip;
+    //   overflow:visible;
+    // }
+  }
+}

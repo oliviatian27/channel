@@ -1,15 +1,15 @@
 import React,{Component} from 'react';
 
 import convertData from '../../utils/convert-data'
-import ChannelGroup from '../../components/channel-group';
-import './style.scss';
+import ChannelList from '../../components/channel-list';
+// import './style.scss';
 
 
 class  ChannelPage extends Component{
   constructor(props) {
      super(props);
      this.state = {
-       channelGroups: []
+       channelList: []
      };
    }
 
@@ -17,13 +17,13 @@ class  ChannelPage extends Component{
      fetch('http://localhost:3001/data')
      .then(res=>res.json())
      .then(data=>{
-       this.setState({channelGroups:convertData(data)})
+       this.setState({channelList:convertData(data)})
      })
    }
   render(){
     return (
-        <div className="app-wrapper">
-         {this.state.channelGroups.map(group=><ChannelGroup key={group.date} group={group}/>)}
+        <div className="container">
+         {this.state.channelList.map(list=><ChannelList key={list.date} list={list}/>)}
         </div>
     );
   }

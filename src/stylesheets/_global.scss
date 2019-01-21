@@ -1,0 +1,24 @@
+// Global layout.
+body {
+  background: map-get($colors, lightgray);
+}
+
+@media only screen and (min-width: 1025px){
+   .body {
+      display: flex;
+   }
+   .container {
+     flex:1;
+
+   }
+}
+@media (min-width: 768px) {
+  .body {
+     display: flex;
+  }
+  .container {
+    width: 100%;
+    flex:1;
+
+  }
+}

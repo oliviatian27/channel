@@ -1,0 +1,14 @@
+// ChannelDetail module
+.channel-detail{
+  grid-area:detail;
+  & .channel-title{
+    font-weight:500;
+    font-family: Avenir, sans-serif;
+    font-size: 1.4vw;
+  }
+  & .channel-description{
+    font-size: 0.8vw;
+    line-height: 1.6;
+    font-weight: 300;
+  }
+}
