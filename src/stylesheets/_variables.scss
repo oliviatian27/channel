@@ -1,10 +1,10 @@
 // Colors.
-$blue: #348dfc;
+
 $white: #ffffff;
 $darkgray: #7b7b7b;
 $gray: #eaeaed;
 $lightgray: #f7f7f9;
-$darkgreen:#3e8e41;
+
 
 
 // Application colors.
@@ -12,10 +12,7 @@ $colors: (
   ui-transparent: transparent,
   ui-light: white,
   ui-dark: black,
-  primary: $blue,
   darkgray: $darkgray,
   gray: $gray,
   lightgray: $lightgray,
-  white:$white,
-  darkgreen:$darkgreen
 );

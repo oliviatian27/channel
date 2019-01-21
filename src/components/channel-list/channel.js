@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 
 import ChannelSubjectPhoto from './channel-subject-photo'
 import ChannelDetail from './channel-detail'
@@ -18,4 +19,10 @@ const Channel =({data}) =>{
 
 }
 
+Channel.propTypes={
+  data:PropTypes.object
+}
+Channel.defaultProps = {
+  data:{}
+}
 export default Channel;

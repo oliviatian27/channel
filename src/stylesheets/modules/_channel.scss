@@ -2,7 +2,7 @@
 .channel{
   grid-column: span 12;
   padding: 20px 0px;
-  background: map-get($colors, white);
+  background: map-get($colors, ui-light);
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: auto auto ;
@@ -13,12 +13,6 @@
   "instructor instructor time time"
 }
 
-// @media only screen and (min-width: 760px){
-//   .container {
-//     max-width: 90%;
-//     margin: 0 auto;
-//   }
-// }
 
 @media only screen and (min-width: 1280px){
   .channel{

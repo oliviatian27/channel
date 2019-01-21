@@ -5,11 +5,10 @@ import ChannelDate from './channel-date'
 import Channel from './channel'
 
 const ChannelList =({list}) =>{
-
     return (
       <div className="channel-list">
          <ChannelDate date={list.date}/>
-         {list.data.map(data=><Channel key={data.time} data={data} />)}
+         {list.data.map((data,idx)=><Channel key={idx} data={data} />)}
       </div>
     );
 

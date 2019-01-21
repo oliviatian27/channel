@@ -34,6 +34,7 @@
     "jest-resolve": "23.6.0",
     "mini-css-extract-plugin": "0.4.3",
     "moment": "^2.23.0",
+    "node-fetch": "^2.3.0",
     "node-sass": "^4.11.0",
     "optimize-css-assets-webpack-plugin": "5.0.1",
     "pnp-webpack-plugin": "1.1.0",
@@ -41,13 +42,13 @@
     "postcss-loader": "3.0.0",
     "postcss-preset-env": "6.3.1",
     "postcss-safe-parser": "4.0.1",
+    "prop-types": "^15.6.2",
     "react": "^16.7.0",
     "react-app-polyfill": "^0.2.0",
     "react-dev-utils": "^7.0.1",
     "react-dom": "^16.7.0",
     "react-moment": "^0.8.4",
     "react-router-dom": "^4.3.1",
-    "react-test-renderer": "^16.7.0",
     "resolve": "1.8.1",
     "sass-loader": "7.1.0",
     "style-loader": "0.23.0",
@@ -79,7 +80,8 @@
     ],
     "resolver": "jest-pnp-resolver",
     "setupFiles": [
-      "react-app-polyfill/jsdom"
+      "react-app-polyfill/jsdom",
+      "<rootDir>/src/setupTests.js"
     ],
     "testMatch": [
       "<rootDir>/src/**/__tests__/**/*.{js,jsx,ts,tsx}",
@@ -121,6 +123,7 @@
   "devDependencies": {
     "enzyme": "^3.8.0",
     "enzyme-adapter-react-16": "^1.7.1",
-    "enzyme-to-json": "^3.3.5"
+    "enzyme-to-json": "^3.3.5",
+    "react-test-renderer": "^16.7.0"
   }
 }

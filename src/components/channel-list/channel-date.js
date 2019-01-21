@@ -5,11 +5,11 @@ const ChannelDate =({date}) =>{
 
     return (
       <div className="channel-date">
-         <span className="date">
              <Moment format="ddd, MMMM DD, YYYY">
+             <span className="date">
                 {date}
+                </span>
              </Moment >
-         </span>
       </div>
     );
 }
