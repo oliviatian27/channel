@@ -1,6 +1,6 @@
 import React,{Component} from 'react';
 
-import convertData from '../../utils/convert-data'
+import loadFromServer from '../../utils/adapter'
 import ChannelList from '../../components/channel-list';
 // import './style.scss';
 
@@ -14,14 +14,16 @@ class  ChannelPage extends Component{
    }
 
   componentDidMount(){
-     fetch('http://localhost:3001/data')
-     .then(res=>res.json())
-     .then(data=>{
-       this.setState({channelList:convertData(data)})
+     loadFromServer(channelList=>{
+       this.setState({channelList})
      })
    }
   render(){
     let {channelList}=this.state
+
+    if(channelList.length===0){
+      return <span className="loading">No Channel yet </span>
+    }
     return (
         <div className="container">
          {channelList.map(list=><ChannelList key={list.date} list={list}/>)}

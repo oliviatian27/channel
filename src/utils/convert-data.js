@@ -2,6 +2,7 @@
 export default function convertData (data) {
   let groupedData=[]
   data.sort((a,b)=>new Date(a.time)-new Date(b.time))
+
   for (var i = 0; i < data.length; i++) {
     let currentDate = data[i].time.split(" ")[0]
     let previousDate = i>0?data[i-1].time.split(" ")[0] : null

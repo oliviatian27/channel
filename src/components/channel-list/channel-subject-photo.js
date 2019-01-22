@@ -7,7 +7,6 @@ const ChannelSubjectPhoto =({photoUrl}) =>{
          <img src={photoUrl} alt="channel-subject" />
       </div>
     );
-
 }
 
 export default ChannelSubjectPhoto;

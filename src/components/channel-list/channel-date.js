@@ -6,9 +6,9 @@ const ChannelDate =({date}) =>{
     return (
       <div className="channel-date">
              <Moment format="ddd, MMMM DD, YYYY">
-             <span className="date">
-                {date}
-                </span>
+                <span className="date">
+                  {date}
+                 </span>
              </Moment >
       </div>
     );
