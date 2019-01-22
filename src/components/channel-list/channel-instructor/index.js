@@ -1,14 +1,14 @@
 import React from 'react';
 
-import InsructorName from './instructor-name'
-import InstructorPhoto from './instructor-photo'
+import InstructorName from './channel-instructor-name'
+import InstructorPhoto from './channel-instructor-photo'
 
 const ChannelInstructor =({instructorName,instructorPhotoUrl}) =>{
 
     return (
       <div className="channel-instructor">
       <InstructorPhoto instructorPhotoUrl={instructorPhotoUrl} />
-      <InsructorName instructorName={instructorName} />
+      <InstructorName instructorName={instructorName} />
       </div>
     );
 

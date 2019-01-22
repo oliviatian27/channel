@@ -1,6 +1,6 @@
 import React from 'react';
 
-const InsructorName =({instructorName}) =>{
+const InstructorName =({instructorName}) =>{
 
     return (
         <div className="instructor-name">
@@ -10,4 +10,4 @@ const InsructorName =({instructorName}) =>{
 
 }
 
-export default InsructorName;
+export default InstructorName;

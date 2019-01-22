@@ -1,10 +1,10 @@
 import React from 'react';
 
-const ChannelSubjectPhoto =({photoUrl}) =>{
+const ChannelSubjectPhoto =({subjectPhotoUrl}) =>{
 
     return (
       <div className="channel-subject-photo">
-         <img src={photoUrl} alt="channel-subject" />
+         <img src={subjectPhotoUrl} alt="channel-subject" />
       </div>
     );
 }

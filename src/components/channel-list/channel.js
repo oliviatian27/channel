@@ -10,7 +10,7 @@ const Channel =({data}) =>{
 
     return (
       <div className="channel">
-         <ChannelSubjectPhoto photoUrl={data.subjectPhotoUrl} />
+         <ChannelSubjectPhoto subjectPhotoUrl={data.subjectPhotoUrl} />
          <ChannelDetail title={data.title} description={data.description} />
          <ChannelInstructor instructorName={data.instructorName} instructorPhotoUrl={data.instructorPhotoUrl} />
          <ChannelTime time={data.time} />
