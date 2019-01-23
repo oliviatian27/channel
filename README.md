@@ -34,3 +34,6 @@ in the project folder, run below command in terminal
 ```
 npm test
 ```
+if the terminal shows No tests found related to files changed since last commit ,then
+
+Press `a` to run all tests, or run Jest with `--watchAll`.

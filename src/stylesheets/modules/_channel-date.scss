@@ -1,7 +1,7 @@
 // ChannelDate module
 .channel-date {
   grid-area:date;
-  padding: 25px 0px;
+  padding: 20px 0px;
   & .date{
     color: map-get($colors,ui-dark);
     font-weight: 500;
