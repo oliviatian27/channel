@@ -24,6 +24,7 @@ describe('InstructorName tests', () => {
     // update the instructorName props
     wrapper.setProps({instructorName:"two"})
 
+    // Expect the instructorName text to be the updated instructorName
     expect(wrapper.find('.instructor-name').text()).toBe("two");
   });
 })

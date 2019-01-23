@@ -5,16 +5,12 @@ const ChannelTime =({time}) =>{
 
     return (
         <div className="channel-time">
-          <Moment format="LT [-]">
-            <span className="start">
-              {time}
-            </span>
+          <Moment format="LT [-]" >
+             {time}
           </Moment >
 
-          <Moment add={{ hours: 1 }} format=" LT [EDT]">
-            <span className="end">
-               {time}
-            </span>
+          <Moment add={{ hours: 1 }} format=" LT [EDT]" >
+             {time}
           </Moment>
          </div>
     );

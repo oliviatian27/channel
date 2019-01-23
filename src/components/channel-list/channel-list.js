@@ -1,5 +1,4 @@
-import React, { Component } from 'react';
-import Moment from 'react-moment';
+import React from 'react';
 
 import ChannelDate from './channel-date'
 import Channel from './channel'
