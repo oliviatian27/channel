@@ -12,6 +12,7 @@ describe('InstructorPhoto tests', () => {
 
     // Expect the wrapper object to be defined
     expect(wrapper.find('.instructor-photo')).toBeDefined();
+    expect(wrapper.find('.instructor-photo')).toMatchSnapshot();
   });
 
   it('displays the correct instructorPhoto based on props.instructorPhoto', () => {
@@ -20,6 +21,7 @@ describe('InstructorPhoto tests', () => {
 
     // Expect the instructorPhoto url to be props.instructorPhotoUrl
     expect(wrapper.find('img').prop("src")).toEqual(instructorPhotoUrl);
+
     // update the instructorPhotoUrl props
     wrapper.setProps({instructorPhotoUrl:"two"})
 

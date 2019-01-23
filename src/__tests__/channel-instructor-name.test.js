@@ -12,6 +12,7 @@ describe('InstructorName tests', () => {
 
     // Expect the wrapper object to be defined
     expect(wrapper.find('.instructor-name')).toBeDefined();
+    expect(wrapper.find('.instructor-name')).toMatchSnapshot();
   });
 
   it('displays the correct instructorName based on props.instructorName', () => {

@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 
 const ChannelTitle =({title}) =>{
 
@@ -7,7 +8,14 @@ const ChannelTitle =({title}) =>{
           {title}
          </div>
     );
+}
 
+ChannelTitle.propTypes={
+  title:PropTypes.string
+}
+
+ChannelTitle.defaultProps = {
+  title:""
 }
 
 export default ChannelTitle;

@@ -1,5 +1,6 @@
 import React from 'react';
 import Moment from 'react-moment';
+import PropTypes from 'prop-types';
 
 const ChannelTime =({time}) =>{
 
@@ -14,7 +15,14 @@ const ChannelTime =({time}) =>{
           </Moment>
          </div>
     );
+}
 
+ChannelTime.propTypes={
+  time:PropTypes.string
+}
+
+ChannelTime.defaultProps = {
+  time:""
 }
 
 export default ChannelTime;

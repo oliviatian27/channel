@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 
 const ChannelSubjectPhoto =({subjectPhotoUrl}) =>{
 
@@ -7,6 +8,14 @@ const ChannelSubjectPhoto =({subjectPhotoUrl}) =>{
          <img src={subjectPhotoUrl} alt="channel-subject" />
       </div>
     );
+}
+
+ChannelSubjectPhoto.propTypes={
+  subjectPhotoUrl:PropTypes.string
+}
+
+ChannelSubjectPhoto.defaultProps = {
+  subjectPhotoUrl:""
 }
 
 export default ChannelSubjectPhoto;

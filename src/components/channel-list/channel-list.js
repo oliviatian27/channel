@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 
 import ChannelDate from './channel-date'
 import Channel from './channel'
@@ -12,5 +13,14 @@ const ChannelList =({list}) =>{
     );
 
 }
+
+ChannelList.propTypes={
+  list:PropTypes.object
+}
+
+ChannelList.defaultProps = PropTypes.shape({
+    date: PropTypes.string,
+    data: PropTypes.array
+})
 
 export default ChannelList;

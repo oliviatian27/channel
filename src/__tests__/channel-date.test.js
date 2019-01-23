@@ -13,6 +13,7 @@ describe('ChannelDate tests', () => {
 
     // Expect the wrapper object to be defined
     expect(wrapper.find('.channel-date')).toBeDefined();
+    expect(wrapper.find('.channel-date')).toMatchSnapshot();
   });
 
   it('displays date based on props.date', () => {

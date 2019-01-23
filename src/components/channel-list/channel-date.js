@@ -1,5 +1,6 @@
 import React from 'react';
 import Moment from 'react-moment';
+import PropTypes from 'prop-types';
 
 const ChannelDate =({date}) =>{
 
@@ -10,6 +11,14 @@ const ChannelDate =({date}) =>{
          </Moment >
       </div>
     );
+}
+
+ChannelDate.propTypes={
+  date:PropTypes.string
+}
+
+ChannelDate.defaultProps = {
+  date:""
 }
 
 export default ChannelDate;

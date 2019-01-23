@@ -2,7 +2,6 @@ import React,{Component} from 'react';
 
 import loadFromServer from '../../utils/adapter'
 import ChannelList from '../../components/channel-list';
-// import './style.scss';
 
 
 class  ChannelPage extends Component{
@@ -18,9 +17,11 @@ class  ChannelPage extends Component{
        this.setState({channelList})
      })
    }
+
   render(){
     let {channelList}=this.state
 
+    //conditional rendering check if the data is successfully loaded
     if(channelList.length===0){
       return <span className="loading">No Channel yet </span>
     }
@@ -30,9 +31,7 @@ class  ChannelPage extends Component{
         </div>
     );
   }
-
 }
-
 
 
 export default ChannelPage;

@@ -12,6 +12,7 @@ describe('ChannelTitle tests', () => {
 
     // Expect the wrapper object to be defined
     expect(wrapper.find('.channel-title')).toBeDefined();
+    expect(wrapper.find('.channel-title')).toMatchSnapshot();
   });
 
   it('displays the correct title based on props.title', () => {

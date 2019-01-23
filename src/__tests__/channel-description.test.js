@@ -12,6 +12,7 @@ describe('ChannelDescription tests', () => {
 
     // Expect the wrapper object to be defined
     expect(wrapper.find('.channel-description')).toBeDefined();
+    expect(wrapper.find('.channel-description')).toMatchSnapshot();
   });
 
   it('displays the correct description based on props.description', () => {

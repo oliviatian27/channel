@@ -1,16 +1,12 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Channel tests renders Channel component 1`] = `
+exports[`ChannelDetail tests renders ChannelDetail component 1`] = `
 ShallowWrapper {
   Symbol(enzyme.__root__): ShallowWrapper {
     Symbol(enzyme.__root__): [Circular],
-    Symbol(enzyme.__unrendered__): <Channel
-      data={
-        Object {
-          "date": "2018-11-01",
-          "title": "one",
-        }
-      }
+    Symbol(enzyme.__unrendered__): <ChannelDetail
+      description="pear"
+      title="apple"
     />,
     Symbol(enzyme.__renderer__): Object {
       "batchedUpdates": [Function],
@@ -26,18 +22,14 @@ ShallowWrapper {
       "nodeType": "host",
       "props": Object {
         "children": Array [
-          <ChannelSubjectPhoto
-            subjectPhotoUrl=""
+          <ChannelTitle
+            title="apple"
           />,
-          <ChannelDetail
-            title="one"
-          />,
-          <ChannelInstructor />,
-          <ChannelTime
-            time=""
+          <ChannelDescription
+            description="pear"
           />,
         ],
-        "className": "channel",
+        "className": "channel-detail",
       },
       "ref": null,
       "rendered": Array [
@@ -46,7 +38,7 @@ ShallowWrapper {
           "key": undefined,
           "nodeType": "function",
           "props": Object {
-            "subjectPhotoUrl": "",
+            "title": "apple",
           },
           "ref": null,
           "rendered": null,
@@ -57,31 +49,7 @@ ShallowWrapper {
           "key": undefined,
           "nodeType": "function",
           "props": Object {
-            "description": undefined,
-            "title": "one",
-          },
-          "ref": null,
-          "rendered": null,
-          "type": [Function],
-        },
-        Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "function",
-          "props": Object {
-            "instructorName": undefined,
-            "instructorPhotoUrl": undefined,
-          },
-          "ref": null,
-          "rendered": null,
-          "type": [Function],
-        },
-        Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "function",
-          "props": Object {
-            "time": "",
+            "description": "pear",
           },
           "ref": null,
           "rendered": null,
@@ -97,18 +65,14 @@ ShallowWrapper {
         "nodeType": "host",
         "props": Object {
           "children": Array [
-            <ChannelSubjectPhoto
-              subjectPhotoUrl=""
+            <ChannelTitle
+              title="apple"
             />,
-            <ChannelDetail
-              title="one"
-            />,
-            <ChannelInstructor />,
-            <ChannelTime
-              time=""
+            <ChannelDescription
+              description="pear"
             />,
           ],
-          "className": "channel",
+          "className": "channel-detail",
         },
         "ref": null,
         "rendered": Array [
@@ -117,7 +81,7 @@ ShallowWrapper {
             "key": undefined,
             "nodeType": "function",
             "props": Object {
-              "subjectPhotoUrl": "",
+              "title": "apple",
             },
             "ref": null,
             "rendered": null,
@@ -128,31 +92,7 @@ ShallowWrapper {
             "key": undefined,
             "nodeType": "function",
             "props": Object {
-              "description": undefined,
-              "title": "one",
-            },
-            "ref": null,
-            "rendered": null,
-            "type": [Function],
-          },
-          Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "function",
-            "props": Object {
-              "instructorName": undefined,
-              "instructorPhotoUrl": undefined,
-            },
-            "ref": null,
-            "rendered": null,
-            "type": [Function],
-          },
-          Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "function",
-            "props": Object {
-              "time": "",
+              "description": "pear",
             },
             "ref": null,
             "rendered": null,
@@ -195,18 +135,14 @@ ShallowWrapper {
     "nodeType": "host",
     "props": Object {
       "children": Array [
-        <ChannelSubjectPhoto
-          subjectPhotoUrl=""
+        <ChannelTitle
+          title="apple"
         />,
-        <ChannelDetail
-          title="one"
-        />,
-        <ChannelInstructor />,
-        <ChannelTime
-          time=""
+        <ChannelDescription
+          description="pear"
         />,
       ],
-      "className": "channel",
+      "className": "channel-detail",
     },
     "ref": null,
     "rendered": Array [
@@ -215,7 +151,7 @@ ShallowWrapper {
         "key": undefined,
         "nodeType": "function",
         "props": Object {
-          "subjectPhotoUrl": "",
+          "title": "apple",
         },
         "ref": null,
         "rendered": null,
@@ -226,31 +162,7 @@ ShallowWrapper {
         "key": undefined,
         "nodeType": "function",
         "props": Object {
-          "description": undefined,
-          "title": "one",
-        },
-        "ref": null,
-        "rendered": null,
-        "type": [Function],
-      },
-      Object {
-        "instance": null,
-        "key": undefined,
-        "nodeType": "function",
-        "props": Object {
-          "instructorName": undefined,
-          "instructorPhotoUrl": undefined,
-        },
-        "ref": null,
-        "rendered": null,
-        "type": [Function],
-      },
-      Object {
-        "instance": null,
-        "key": undefined,
-        "nodeType": "function",
-        "props": Object {
-          "time": "",
+          "description": "pear",
         },
         "ref": null,
         "rendered": null,
@@ -266,18 +178,14 @@ ShallowWrapper {
       "nodeType": "host",
       "props": Object {
         "children": Array [
-          <ChannelSubjectPhoto
-            subjectPhotoUrl=""
+          <ChannelTitle
+            title="apple"
           />,
-          <ChannelDetail
-            title="one"
-          />,
-          <ChannelInstructor />,
-          <ChannelTime
-            time=""
+          <ChannelDescription
+            description="pear"
           />,
         ],
-        "className": "channel",
+        "className": "channel-detail",
       },
       "ref": null,
       "rendered": Array [
@@ -286,7 +194,7 @@ ShallowWrapper {
           "key": undefined,
           "nodeType": "function",
           "props": Object {
-            "subjectPhotoUrl": "",
+            "title": "apple",
           },
           "ref": null,
           "rendered": null,
@@ -297,31 +205,7 @@ ShallowWrapper {
           "key": undefined,
           "nodeType": "function",
           "props": Object {
-            "description": undefined,
-            "title": "one",
-          },
-          "ref": null,
-          "rendered": null,
-          "type": [Function],
-        },
-        Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "function",
-          "props": Object {
-            "instructorName": undefined,
-            "instructorPhotoUrl": undefined,
-          },
-          "ref": null,
-          "rendered": null,
-          "type": [Function],
-        },
-        Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "function",
-          "props": Object {
-            "time": "",
+            "description": "pear",
           },
           "ref": null,
           "rendered": null,
@@ -355,18 +239,14 @@ ShallowWrapper {
       "nodeType": "host",
       "props": Object {
         "children": Array [
-          <ChannelSubjectPhoto
-            subjectPhotoUrl=""
+          <ChannelTitle
+            title="apple"
           />,
-          <ChannelDetail
-            title="one"
-          />,
-          <ChannelInstructor />,
-          <ChannelTime
-            time=""
+          <ChannelDescription
+            description="pear"
           />,
         ],
-        "className": "channel",
+        "className": "channel-detail",
       },
       "ref": null,
       "rendered": Array [
@@ -375,7 +255,7 @@ ShallowWrapper {
           "key": undefined,
           "nodeType": "function",
           "props": Object {
-            "subjectPhotoUrl": "",
+            "title": "apple",
           },
           "ref": null,
           "rendered": null,
@@ -386,31 +266,7 @@ ShallowWrapper {
           "key": undefined,
           "nodeType": "function",
           "props": Object {
-            "description": undefined,
-            "title": "one",
-          },
-          "ref": null,
-          "rendered": null,
-          "type": [Function],
-        },
-        Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "function",
-          "props": Object {
-            "instructorName": undefined,
-            "instructorPhotoUrl": undefined,
-          },
-          "ref": null,
-          "rendered": null,
-          "type": [Function],
-        },
-        Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "function",
-          "props": Object {
-            "time": "",
+            "description": "pear",
           },
           "ref": null,
           "rendered": null,

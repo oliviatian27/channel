@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 
 const InstructorName =({instructorName}) =>{
 
@@ -8,6 +9,14 @@ const InstructorName =({instructorName}) =>{
          </div>
     );
 
+}
+
+InstructorName.propTypes={
+  instructorName:PropTypes.string
+}
+
+InstructorName.defaultProps = {
+  instructorName:""
 }
 
 export default InstructorName;

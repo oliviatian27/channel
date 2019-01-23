@@ -22,7 +22,9 @@ const Channel =({data}) =>{
 Channel.propTypes={
   data:PropTypes.object
 }
+
 Channel.defaultProps = {
   data:{}
 }
+
 export default Channel;

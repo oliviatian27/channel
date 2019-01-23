@@ -14,6 +14,7 @@ describe('ChannelInstructor tests', () => {
 
     // Expect the wrapper object to be defined
     expect(wrapper.find('.channel-instructor')).toBeDefined();
+    expect(wrapper.find('.channel-instructor')).toMatchSnapshot();
   });
 
   it('renders InstructorPhoto and instructorName components and pass down the correct props', () => {

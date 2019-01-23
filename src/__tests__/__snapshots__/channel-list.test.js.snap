@@ -5,6 +5,7 @@ ShallowWrapper {
   Symbol(enzyme.__root__): ShallowWrapper {
     Symbol(enzyme.__root__): [Circular],
     Symbol(enzyme.__unrendered__): <ChannelList
+      isRequired={[Function]}
       list={
         Object {
           "data": Array [

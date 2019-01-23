@@ -12,6 +12,7 @@ describe('ChannelSubjectPhoto tests', () => {
 
     // Expect the wrapper object to be defined
     expect(wrapper.find('.channel-subject-photo')).toBeDefined();
+    expect(wrapper.find('.channel-subject-photo')).toMatchSnapshot();
   });
 
   it('displays the correct subjectPhoto based on props.subjectPhotoUrl', () => {

@@ -1,0 +1,629 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ChannelTime tests renders Channel-time 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): ShallowWrapper {
+    Symbol(enzyme.__root__): [Circular],
+    Symbol(enzyme.__unrendered__): <ChannelTime
+      time="2019-01-05 19:00:00"
+    />,
+    Symbol(enzyme.__renderer__): Object {
+      "batchedUpdates": [Function],
+      "getNode": [Function],
+      "render": [Function],
+      "simulateError": [Function],
+      "simulateEvent": [Function],
+      "unmount": [Function],
+    },
+    Symbol(enzyme.__node__): Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <t
+            ago={false}
+            calendar={false}
+            decimal={false}
+            element="time"
+            filter={[Function]}
+            format="LT [-]"
+            fromNow={false}
+            interval={60000}
+            onChange={[Function]}
+            titleFormat=""
+            toNow={false}
+            unit={null}
+            unix={false}
+            utc={false}
+            withTitle={false}
+          >
+            2019-01-05 19:00:00
+          </t>,
+          <t
+            add={
+              Object {
+                "hours": 1,
+              }
+            }
+            ago={false}
+            calendar={false}
+            decimal={false}
+            element="time"
+            filter={[Function]}
+            format=" LT [EDT]"
+            fromNow={false}
+            interval={60000}
+            onChange={[Function]}
+            titleFormat=""
+            toNow={false}
+            unit={null}
+            unix={false}
+            utc={false}
+            withTitle={false}
+          >
+            2019-01-05 19:00:00
+          </t>,
+        ],
+        "className": "channel-time",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "ago": false,
+            "calendar": false,
+            "children": "2019-01-05 19:00:00",
+            "decimal": false,
+            "element": "time",
+            "filter": [Function],
+            "format": "LT [-]",
+            "fromNow": false,
+            "interval": 60000,
+            "onChange": [Function],
+            "titleFormat": "",
+            "toNow": false,
+            "unit": null,
+            "unix": false,
+            "utc": false,
+            "withTitle": false,
+          },
+          "ref": null,
+          "rendered": "2019-01-05 19:00:00",
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "add": Object {
+              "hours": 1,
+            },
+            "ago": false,
+            "calendar": false,
+            "children": "2019-01-05 19:00:00",
+            "decimal": false,
+            "element": "time",
+            "filter": [Function],
+            "format": " LT [EDT]",
+            "fromNow": false,
+            "interval": 60000,
+            "onChange": [Function],
+            "titleFormat": "",
+            "toNow": false,
+            "unit": null,
+            "unix": false,
+            "utc": false,
+            "withTitle": false,
+          },
+          "ref": null,
+          "rendered": "2019-01-05 19:00:00",
+          "type": [Function],
+        },
+      ],
+      "type": "div",
+    },
+    Symbol(enzyme.__nodes__): Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <t
+              ago={false}
+              calendar={false}
+              decimal={false}
+              element="time"
+              filter={[Function]}
+              format="LT [-]"
+              fromNow={false}
+              interval={60000}
+              onChange={[Function]}
+              titleFormat=""
+              toNow={false}
+              unit={null}
+              unix={false}
+              utc={false}
+              withTitle={false}
+            >
+              2019-01-05 19:00:00
+            </t>,
+            <t
+              add={
+                Object {
+                  "hours": 1,
+                }
+              }
+              ago={false}
+              calendar={false}
+              decimal={false}
+              element="time"
+              filter={[Function]}
+              format=" LT [EDT]"
+              fromNow={false}
+              interval={60000}
+              onChange={[Function]}
+              titleFormat=""
+              toNow={false}
+              unit={null}
+              unix={false}
+              utc={false}
+              withTitle={false}
+            >
+              2019-01-05 19:00:00
+            </t>,
+          ],
+          "className": "channel-time",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "ago": false,
+              "calendar": false,
+              "children": "2019-01-05 19:00:00",
+              "decimal": false,
+              "element": "time",
+              "filter": [Function],
+              "format": "LT [-]",
+              "fromNow": false,
+              "interval": 60000,
+              "onChange": [Function],
+              "titleFormat": "",
+              "toNow": false,
+              "unit": null,
+              "unix": false,
+              "utc": false,
+              "withTitle": false,
+            },
+            "ref": null,
+            "rendered": "2019-01-05 19:00:00",
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "add": Object {
+                "hours": 1,
+              },
+              "ago": false,
+              "calendar": false,
+              "children": "2019-01-05 19:00:00",
+              "decimal": false,
+              "element": "time",
+              "filter": [Function],
+              "format": " LT [EDT]",
+              "fromNow": false,
+              "interval": 60000,
+              "onChange": [Function],
+              "titleFormat": "",
+              "toNow": false,
+              "unit": null,
+              "unix": false,
+              "utc": false,
+              "withTitle": false,
+            },
+            "ref": null,
+            "rendered": "2019-01-05 19:00:00",
+            "type": [Function],
+          },
+        ],
+        "type": "div",
+      },
+    ],
+    Symbol(enzyme.__options__): Object {
+      "adapter": ReactSixteenAdapter {
+        "options": Object {
+          "enableComponentDidUpdateOnSetState": true,
+          "lifecycles": Object {
+            "componentDidUpdate": Object {
+              "onSetState": true,
+            },
+            "getDerivedStateFromProps": true,
+            "getSnapshotBeforeUpdate": true,
+            "setState": Object {
+              "skipsComponentDidUpdateOnNullish": true,
+            },
+          },
+        },
+      },
+    },
+  },
+  Symbol(enzyme.__unrendered__): null,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <t
+          ago={false}
+          calendar={false}
+          decimal={false}
+          element="time"
+          filter={[Function]}
+          format="LT [-]"
+          fromNow={false}
+          interval={60000}
+          onChange={[Function]}
+          titleFormat=""
+          toNow={false}
+          unit={null}
+          unix={false}
+          utc={false}
+          withTitle={false}
+        >
+          2019-01-05 19:00:00
+        </t>,
+        <t
+          add={
+            Object {
+              "hours": 1,
+            }
+          }
+          ago={false}
+          calendar={false}
+          decimal={false}
+          element="time"
+          filter={[Function]}
+          format=" LT [EDT]"
+          fromNow={false}
+          interval={60000}
+          onChange={[Function]}
+          titleFormat=""
+          toNow={false}
+          unit={null}
+          unix={false}
+          utc={false}
+          withTitle={false}
+        >
+          2019-01-05 19:00:00
+        </t>,
+      ],
+      "className": "channel-time",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "ago": false,
+          "calendar": false,
+          "children": "2019-01-05 19:00:00",
+          "decimal": false,
+          "element": "time",
+          "filter": [Function],
+          "format": "LT [-]",
+          "fromNow": false,
+          "interval": 60000,
+          "onChange": [Function],
+          "titleFormat": "",
+          "toNow": false,
+          "unit": null,
+          "unix": false,
+          "utc": false,
+          "withTitle": false,
+        },
+        "ref": null,
+        "rendered": "2019-01-05 19:00:00",
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "add": Object {
+            "hours": 1,
+          },
+          "ago": false,
+          "calendar": false,
+          "children": "2019-01-05 19:00:00",
+          "decimal": false,
+          "element": "time",
+          "filter": [Function],
+          "format": " LT [EDT]",
+          "fromNow": false,
+          "interval": 60000,
+          "onChange": [Function],
+          "titleFormat": "",
+          "toNow": false,
+          "unit": null,
+          "unix": false,
+          "utc": false,
+          "withTitle": false,
+        },
+        "ref": null,
+        "rendered": "2019-01-05 19:00:00",
+        "type": [Function],
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <t
+            ago={false}
+            calendar={false}
+            decimal={false}
+            element="time"
+            filter={[Function]}
+            format="LT [-]"
+            fromNow={false}
+            interval={60000}
+            onChange={[Function]}
+            titleFormat=""
+            toNow={false}
+            unit={null}
+            unix={false}
+            utc={false}
+            withTitle={false}
+          >
+            2019-01-05 19:00:00
+          </t>,
+          <t
+            add={
+              Object {
+                "hours": 1,
+              }
+            }
+            ago={false}
+            calendar={false}
+            decimal={false}
+            element="time"
+            filter={[Function]}
+            format=" LT [EDT]"
+            fromNow={false}
+            interval={60000}
+            onChange={[Function]}
+            titleFormat=""
+            toNow={false}
+            unit={null}
+            unix={false}
+            utc={false}
+            withTitle={false}
+          >
+            2019-01-05 19:00:00
+          </t>,
+        ],
+        "className": "channel-time",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "ago": false,
+            "calendar": false,
+            "children": "2019-01-05 19:00:00",
+            "decimal": false,
+            "element": "time",
+            "filter": [Function],
+            "format": "LT [-]",
+            "fromNow": false,
+            "interval": 60000,
+            "onChange": [Function],
+            "titleFormat": "",
+            "toNow": false,
+            "unit": null,
+            "unix": false,
+            "utc": false,
+            "withTitle": false,
+          },
+          "ref": null,
+          "rendered": "2019-01-05 19:00:00",
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "add": Object {
+              "hours": 1,
+            },
+            "ago": false,
+            "calendar": false,
+            "children": "2019-01-05 19:00:00",
+            "decimal": false,
+            "element": "time",
+            "filter": [Function],
+            "format": " LT [EDT]",
+            "fromNow": false,
+            "interval": 60000,
+            "onChange": [Function],
+            "titleFormat": "",
+            "toNow": false,
+            "unit": null,
+            "unix": false,
+            "utc": false,
+            "withTitle": false,
+          },
+          "ref": null,
+          "rendered": "2019-01-05 19:00:00",
+          "type": [Function],
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+  Symbol(enzyme.__rootNodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <t
+            ago={false}
+            calendar={false}
+            decimal={false}
+            element="time"
+            filter={[Function]}
+            format="LT [-]"
+            fromNow={false}
+            interval={60000}
+            onChange={[Function]}
+            titleFormat=""
+            toNow={false}
+            unit={null}
+            unix={false}
+            utc={false}
+            withTitle={false}
+          >
+            2019-01-05 19:00:00
+          </t>,
+          <t
+            add={
+              Object {
+                "hours": 1,
+              }
+            }
+            ago={false}
+            calendar={false}
+            decimal={false}
+            element="time"
+            filter={[Function]}
+            format=" LT [EDT]"
+            fromNow={false}
+            interval={60000}
+            onChange={[Function]}
+            titleFormat=""
+            toNow={false}
+            unit={null}
+            unix={false}
+            utc={false}
+            withTitle={false}
+          >
+            2019-01-05 19:00:00
+          </t>,
+        ],
+        "className": "channel-time",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "ago": false,
+            "calendar": false,
+            "children": "2019-01-05 19:00:00",
+            "decimal": false,
+            "element": "time",
+            "filter": [Function],
+            "format": "LT [-]",
+            "fromNow": false,
+            "interval": 60000,
+            "onChange": [Function],
+            "titleFormat": "",
+            "toNow": false,
+            "unit": null,
+            "unix": false,
+            "utc": false,
+            "withTitle": false,
+          },
+          "ref": null,
+          "rendered": "2019-01-05 19:00:00",
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "add": Object {
+              "hours": 1,
+            },
+            "ago": false,
+            "calendar": false,
+            "children": "2019-01-05 19:00:00",
+            "decimal": false,
+            "element": "time",
+            "filter": [Function],
+            "format": " LT [EDT]",
+            "fromNow": false,
+            "interval": 60000,
+            "onChange": [Function],
+            "titleFormat": "",
+            "toNow": false,
+            "unit": null,
+            "unix": false,
+            "utc": false,
+            "withTitle": false,
+          },
+          "ref": null,
+          "rendered": "2019-01-05 19:00:00",
+          "type": [Function],
+        },
+      ],
+      "type": "div",
+    },
+  ],
+}
+`;

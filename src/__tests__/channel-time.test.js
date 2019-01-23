@@ -13,6 +13,7 @@ describe('ChannelTime tests', () => {
 
     // Expect the wrapper object to be defined
     expect(wrapper.find('.channel-time')).toBeDefined();
+    expect(wrapper.find('.channel-time')).toMatchSnapshot();
   });
 
   it('displays correct start and end time based on props.time', () => {
